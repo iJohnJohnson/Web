@@ -1,0 +1,108 @@
+
+/* Pages Background Color */
+body{
+    background-color: hsl(150, 0%, 30%);
+}
+
+/* Navigation Bar */
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 10%);
+    padding: 0px;
+    margin: 10px;
+    overflow: auto;
+    border: 6px solid hsl(0, 100%, 30%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(32, 31, 31);
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+/* Boxes in the navigation bar */
+#hqBox a {
+    color: rgb(255, 0, 0);
+}
+
+#glBox a {
+    color: rgb(0, 255, 0);
+}
+
+#blogBox a {
+    color: rgb(0, 255, 234);
+}
+
+#aboutBox a {
+    color: rgb(255, 251, 0);
+}
+#logicBox a {
+    color: rgb(160, 85, 245)
+}
+
+
+
+/* Text */
+h1{
+    color: hsl(120, 100%, 58%);
+    background-color: hsl(0, 13%, 12%);
+    font-family: verdana, arial;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 6px solid hsl(0, 100%, 30%); /* width, style, color */
+    text-align: center;
+}
+h2{
+    color: hsl(0, 0%, 0%);
+    font-family: verdana, arial;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    color: hsl(0, 0%, 0%);
+    font-family: verdana, arial;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+h4{
+    color: hsl(0, 0%, 0%);
+    font-family: verdana, arial;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+h5{
+    color: hsl(0, 0%, 0%);
+    font-family: verdana, arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+h6{
+    color: hsl(0, 0%, 0%);
+    font-family: verdana, arial;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    font-family: verdana, "courier new";
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
