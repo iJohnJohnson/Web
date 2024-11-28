@@ -4,6 +4,7 @@ body{
     background-color: hsl(0, 3%, 20%);
     font-weight: bold;
     text-align: center;
+    color: hsl(0, 0%, 0%);
 }
 
 /* Text */
@@ -16,32 +17,26 @@ h1{
     border: 6px solid hsl(0, 100%, 30%); /* width, style, color */
 }
 h2{
-    color: hsl(0, 0%, 0%);
     font-family: verdana, arial;
     font-size: 45px;
 }
 h3{
-    color: hsl(0, 0%, 0%);
     font-family: verdana, arial;
     font-size: 40px;
 }
 h4{
-    color: hsl(0, 0%, 0%);
     font-family: verdana, arial;
     font-size: 35px;
 }
 h5{
-    color: hsl(0, 0%, 0%);
     font-family: verdana, arial;
     font-size: 30px;
 }
 h6{
-    color: hsl(0, 0%, 0%);
     font-family: verdana, arial;
     font-size: 26px;
 }
 p{
-    color: hsl(0, 0%, 0%);
     font-family: verdana, "courier new";
     font-size: 24px;
     font-style: italic;
