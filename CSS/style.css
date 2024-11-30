@@ -1,39 +1,34 @@
-
 /* Pages Background Color */
 body{
     background-color: hsl(0, 3%, 20%);
     font-weight: bold;
     text-align: center;
     color: hsl(0, 0%, 0%);
+    font-family: verdana, arial;
 }
 
 /* Text */
 h1{
     color: hsl(120, 100%, 58%);
     background-color: hsl(0, 13%, 12%);
-    font-family: verdana, arial;
     font-size: 50px;
     border-radius: 10px;
     border: 6px solid hsl(0, 100%, 30%); /* width, style, color */
+    padding-bottom: 6px;
 }
 h2{
-    font-family: verdana, arial;
     font-size: 45px;
 }
 h3{
-    font-family: verdana, arial;
     font-size: 40px;
 }
 h4{
-    font-family: verdana, arial;
     font-size: 35px;
 }
 h5{
-    font-family: verdana, arial;
     font-size: 30px;
 }
 h6{
-    font-family: verdana, arial;
     font-size: 26px;
 }
 p{
@@ -42,9 +37,20 @@ p{
     font-style: italic;
 }
 
+/* Custom Text Classes */
+.textBottom {
+    font-size: 40px;
+    display: relative;
+    transform: translate(0%, 1000%);
+}
 
 
 /* Navigation Bar */
+.navbar {
+    transform: translate(47%, -60%);
+    width: 1000px;
+}
+
 .navbar ul{
     list-style-type: none;
     background-color: hsl(0, 0%, 10%);
@@ -75,12 +81,12 @@ p{
 /* Boxes in the navigation bar */
 #hqBox a {
     color: hsl(0, 100%, 50%);
-    transform: translateX(50%);
+    transform: translateX(0%);
 }
 
-#glBox a {
+#libraryBox a {
     color: hsl(120, 100%, 50%);
-    transform: translateX(0%);
+    transform: translateX(50%);
 }
 
 #blogBox a {
@@ -146,4 +152,54 @@ p{
     position: relative;
     right: 35%;
     text-decoration: underline;
+}
+#listRoadmap li {
+    float: left;
+}
+
+
+
+
+
+/* Library Section */
+.buttonLibrary {
+    position: relative;
+    display: flex;
+    transform: translate(10%, 0%);
+}
+
+#btnGraphics a {
+    background-color: black;
+    font-size: 30px;
+    color: hsl(130, 100%, 50%);
+    text-decoration: none;
+    border: 3px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 6px;
+    margin-right: 41em;
+}
+
+#btnLogic a {
+    background-color: black;
+    font-size: 30px;
+    color: rgb(157, 8, 202);
+    text-decoration: none;
+    border: 3px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.textLibrary {
+    position: relative;
+    display: flex;
+    color: hsl(0, 0%, 0%);
+}
+
+#textLibraryGraphics {
+    margin-right: 35em;
+
+}
+
+#textLibraryLogic {
+    color: black; /* Code not needed */
 }
