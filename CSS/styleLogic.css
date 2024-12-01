@@ -1,0 +1,9 @@
+/* Overides Standard Page */
+body {
+    background-color: hsl(138, 71%, 19%);
+}
+
+.LOGIC a {
+    text-decoration: none;
+    color: hsl(177, 100%, 53%);
+}

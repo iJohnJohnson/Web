@@ -1,4 +1,4 @@
-/* Pages Background Color */
+/* Page Standard */
 body{
     background-color: hsl(0, 3%, 20%);
     font-weight: bold;
@@ -145,7 +145,7 @@ p{
 
 /* Logic Engine page */
 #logicEngineBox a {
-    color: hsl(268, 63%, 46%);
+    color: hsl(0, 0%, 0%);
 }
 #roadmapBox a{
     color: hsl(182, 83%, 37%);
